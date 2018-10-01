@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício 6</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="#" class="form">
+
+        <fieldset id="login">   
+            <legend>Dados de login</legend>
+            <div>
+                <label for="user">Usuário</label>
+                <input type="text" name="user" class="half-col" id="user">
+            </div>
+
+            <div>
+                <label for="password">Senha</label>
+                <input type="password" name="password" class="half-col" id="password">
+            </div>
+        </fieldset> 
+
+        <div class="divFlex">
+            <p>Escolha uma ou múltiplas opções</p>
+            <div class="options">
+                <label for="mulher"><input type="checkbox" name="mulher" value="Mulher" id="mulher"> Mulher</label>
+                <label for="poderosa"><input type="checkbox" name="poderosa" value="Poderosa" id="poderosa"> Poderosa</label>
+                <label for="linda"><input type="checkbox" name="linda" value="Linda" id="linda"> Linda</label>
+                <label for="maravilhosa"><input type="checkbox" name="maravilhosa" value="Maravilhosa" id="maravilhosa"> Maravilhosa</label>
+            </div>
+        </div>
+
+        <div class="divFlex">
+            <label for="texto">Escolha uma opção</label>
+            <div class="options">
+                <label for="força"><input type="radio" name="poder" value="Super força" id="força"> Super força</label>
+                <label for="invisivel"><input type="radio" name="poder" value="Ser invisível" id="força"> Ser invisível</label>
+                <label for="mentes"><input type="radio" name="poder" value="Ler mentes" id="mentes"> Ler mentes</label>
+                <label for="velocidade"><input type="radio" name="poder" value="Super velocidade" id="força"> Super velocidade</label>
+            </div>
+        </div>
+
+        <div class="sections">
+            <label for="sections">Selecione um tópico</label>
+            <select name="dropdown">
+                <option value="contato">Escolher</option>
+                <option value="contato">Deixar meu site mais bonito</option>
+                <option value="contato">Fazer a revolução feminista</option>
+                <option value="contato">Ser rainha da p**** toda</option>
+                <option value="contato">Aprender códigos</option>
+            </select>
+        </div>
+
+        <div class="sections">
+            <label for="sections">Escolha um valor</label>
+            <input type="number" name="valor">
+        </div>
+        
+        <div class="sections">
+            <label for="sections">Comentário</label>
+            <textarea name="valor" id="comment"></textarea>
+        </div>
+
+        <div>
+            <div class="half-col"></div>
+            <button class="btn clean">Limpar</button>
+            <input class="btn submit" type="submit" value="Enviar">
+        </div>
+    </form>
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,116 @@
+/* GERAL */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/* FORM */
+.form {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+    .form > div {
+        margin-top: 25px;
+    }
+
+    .divFlex {
+        display: flex;
+        justify-content: center;
+    }
+
+    label {
+        display: inline-block;
+        width: 40%;
+        text-align: left;
+        margin-right: 15px;
+        vertical-align: top;
+    }
+
+    #login label {
+        width: 70px;
+    }
+
+    #login div {
+        margin-top: 5px;
+    }
+
+    #login input {
+        width: 250px;
+    }
+
+    input[type="text"], select, input[type="number"] {
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+        border-radius: 2px;
+        border: 1px solid #ccc;
+        height: 30px;
+        padding: 5px;
+    }
+
+    textarea {
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+        border-radius: 2px;
+        border: 1px solid #ccc;
+        padding: 5px;
+    }
+
+/* LAYOUT */
+.half-col {
+    display: inline-block;
+    width: 45%;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#login {
+    padding: 7%;
+    width: 470px;
+}
+
+#comment {
+    width: 50%;
+}
+
+.sections {
+    width: 350px;;
+}
+
+/* BUTTON */
+.btn {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    border: 1px solid #ccc;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all .5s;
+    margin-left: 15px;
+}
+
+.clean {
+    background-color: #ccc;
+    color: #4a4a4a;
+}
+
+.submit {
+    background-color: #9013FE;
+    color: white;
+}
+
+.clean:hover {
+    background-color: #999;
+    color: white;
+}
+
+.submit:hover {
+    background-color: #3a006d;
+}
