@@ -85,6 +85,10 @@ body {
     width: 350px;;
 }
 
+span {
+    color: red;
+}
+
 /* BUTTON */
 .btn {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
